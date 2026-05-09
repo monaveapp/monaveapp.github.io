@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { messages } from "../i18n/messages";
+import type { Locale } from "../i18n/locales";
+
+type Props = {
+  locale: Locale;
+};
+
+const { locale } = Astro.props;
+const copy = messages[locale];
+---
+
+<BaseLayout lang={locale} title={copy.title}>
+  <slot />
+</BaseLayout>

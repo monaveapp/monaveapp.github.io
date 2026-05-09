@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Monave">
+  <rect width="64" height="64" rx="14" fill="#f7f4ec"/>
+  <path d="M8 20c12-8 26-9 48-3v24c-17-5-33-6-48 2z" fill="#4a5775"/>
+  <path d="M8 39c13-8 29-7 48-1v18H8z" fill="#D9925E"/>
+</svg>

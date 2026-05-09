@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--monave-paper);
+  color: var(--monave-ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.placeholder {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  gap: 18px;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 50% 42%, var(--monave-indigo-wash), transparent 32rem),
+    var(--monave-paper);
+}
+
+.placeholder__mark {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--monave-rule);
+  border-radius: var(--monave-app-radius);
+  background:
+    linear-gradient(165deg, var(--monave-indigo-soft), var(--monave-indigo) 52%, transparent 53%),
+    linear-gradient(160deg, transparent 48%, var(--monave-clay) 49%, var(--monave-clay-deep));
+  box-shadow: 0 16px 40px rgba(29, 32, 41, 0.08);
+}
+
+.placeholder__status {
+  margin: 0;
+  color: var(--monave-ink-3);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

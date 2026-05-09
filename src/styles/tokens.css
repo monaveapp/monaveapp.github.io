@@ -1,0 +1,40 @@
+:root {
+  --monave-paper: #f7f4ec;
+  --monave-paper-warm: #f1ece0;
+  --monave-paper-deep: #e7e1d1;
+  --monave-ink: #1d2029;
+  --monave-ink-2: #383c48;
+  --monave-ink-3: #6a6f7e;
+  --monave-ink-4: #9aa0af;
+  --monave-ink-5: #c2c6d1;
+  --monave-indigo: #4a5775;
+  --monave-indigo-soft: #7b8aa8;
+  --monave-indigo-wash: #e1e5ee;
+  --monave-clay: #d9925e;
+  --monave-clay-deep: #a05c28;
+  --monave-rule: rgba(74, 87, 117, 0.12);
+  --monave-glass-background: rgba(248, 250, 255, 0.55);
+  --monave-glass-background-strong: rgba(248, 250, 255, 0.75);
+  --monave-glass-blur: 16px;
+  --monave-app-radius: 14px;
+  --monave-control-radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --monave-paper: #171a21;
+    --monave-paper-warm: #1d2029;
+    --monave-paper-deep: #252b36;
+    --monave-ink: #f3f0e8;
+    --monave-ink-2: #d8d7d2;
+    --monave-ink-3: #b5bac6;
+    --monave-ink-4: #838b9b;
+    --monave-ink-5: #606a7b;
+    --monave-indigo: #a7b5d7;
+    --monave-indigo-soft: #8392b7;
+    --monave-indigo-wash: #2f3a52;
+    --monave-rule: rgba(167, 181, 215, 0.14);
+    --monave-glass-background: rgba(29, 32, 41, 0.55);
+    --monave-glass-background-strong: rgba(29, 32, 41, 0.75);
+  }
+}

@@ -1,0 +1,19 @@
+---
+import LocaleShell from "./LocaleShell.astro";
+import { messages } from "../i18n/messages";
+import type { Locale } from "../i18n/locales";
+
+type Props = {
+  locale: Locale;
+};
+
+const { locale } = Astro.props;
+const copy = messages[locale];
+---
+
+<LocaleShell locale={locale}>
+  <main class="placeholder" aria-labelledby="status">
+    <div class="placeholder__mark" aria-hidden="true"></div>
+    <p id="status" class="placeholder__status">{copy.status}</p>
+  </main>
+</LocaleShell>
